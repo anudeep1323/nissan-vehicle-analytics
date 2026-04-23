@@ -1,0 +1,68 @@
+[0m12:19:10.151180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104caa870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1111da2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a41700>]}
+
+
+============================== 12:19:10.154212 | 1bea072e-c1bb-4c6d-af3b-83a709df3cca ==============================
+[0m12:19:10.154212 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:19:10.154571 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/anudeepgoudrampur/.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init nissan_analytics', 'fail_fast': 'False', 'printer_width': '80', 'introspect': 'True', 'version_check': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'no_print': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'quiet': 'False', 'log_cache_events': 'False', 'partial_parse': 'True'}
+[0m12:19:10.165673 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:19:10.171314 [info ] [MainThread]: 
+Your new dbt project "nissan_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:19:10.171654 [info ] [MainThread]: Setting up your profile.
+[0m12:19:53.742650 [error] [MainThread]: Encountered an error:
+
+[0m12:19:53.751463 [error] [MainThread]: Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/task/init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/task/init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/task/init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/click/termui.py", line 171, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/click/termui.py", line 154, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m12:19:54.038538 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 43.950214, "process_in_blocks": "0", "process_kernel_time": 0.264004, "process_mem_max_rss": "106659840", "process_out_blocks": "0", "process_user_time": 1.001669}
+[0m12:19:54.039631 [debug] [MainThread]: Command `dbt init` failed at 12:19:54.039484 after 43.95 seconds
+[0m12:19:54.041565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11107b230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111116060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e55070>]}
+[0m12:19:54.042628 [debug] [MainThread]: Flushing usage events
+[0m12:19:54.410772 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:20:29.056514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107533530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107abbf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107abbfe0>]}
+
+
+============================== 12:20:29.059942 | 1af8f03c-1c58-4e57-b2b2-2e8bde5480b7 ==============================
+[0m12:20:29.059942 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:20:29.060305 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init nissan_analytics', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'write_json': 'True', 'no_print': 'None', 'profiles_dir': '/Users/anudeepgoudrampur/.dbt', 'empty': 'None', 'printer_width': '80', 'warn_error': 'None', 'log_cache_events': 'False', 'fail_fast': 'False', 'debug': 'False', 'target_path': 'None', 'version_check': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_path': 'logs'}
+[0m12:20:29.070704 [info ] [MainThread]: A project called nissan_analytics already exists here.
+[0m12:20:29.072879 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.07062413, "process_in_blocks": "0", "process_kernel_time": 0.157725, "process_mem_max_rss": "107888640", "process_out_blocks": "0", "process_user_time": 0.815319}
+[0m12:20:29.073280 [debug] [MainThread]: Command `dbt init` succeeded at 12:20:29.073212 after 0.07 seconds
+[0m12:20:29.073520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107abbad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b7b140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b7bd10>]}
+[0m12:20:29.073763 [debug] [MainThread]: Flushing usage events
+[0m12:20:29.275969 [debug] [MainThread]: An error was encountered while trying to flush usage events

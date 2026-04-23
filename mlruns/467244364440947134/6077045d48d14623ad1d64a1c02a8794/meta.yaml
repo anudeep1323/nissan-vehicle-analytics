@@ -1,0 +1,15 @@
+artifact_uri: /Users/anudeepgoudrampur/Documents/ML/mlruns/467244364440947134/6077045d48d14623ad1d64a1c02a8794/artifacts
+end_time: 1776905749452
+entry_point_name: ''
+experiment_id: '467244364440947134'
+lifecycle_stage: active
+run_id: 6077045d48d14623ad1d64a1c02a8794
+run_name: xgboost_best
+run_uuid: 6077045d48d14623ad1d64a1c02a8794
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776905746086
+status: 3
+tags: []
+user_id: anudeepgoudrampur

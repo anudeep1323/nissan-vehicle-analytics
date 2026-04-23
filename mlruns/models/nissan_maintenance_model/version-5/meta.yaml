@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1776907889393
+current_stage: None
+description: null
+last_updated_timestamp: 1776907889393
+name: nissan_maintenance_model
+run_id: 3173272fe7314defa9596b9fed989b67
+run_link: null
+source: /Users/anudeepgoudrampur/Documents/ML/mlruns/467244364440947134/3173272fe7314defa9596b9fed989b67/artifacts/model
+status: READY
+status_message: null
+storage_location: /Users/anudeepgoudrampur/Documents/ML/mlruns/467244364440947134/3173272fe7314defa9596b9fed989b67/artifacts/model
+user_id: null
+version: 5
