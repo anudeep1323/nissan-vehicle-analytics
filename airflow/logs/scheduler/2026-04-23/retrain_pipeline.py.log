@@ -1458,3 +1458,24 @@
 [2026-04-23T11:32:37.008-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:37.008-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:32:37.016-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:37.016-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
 [2026-04-23T11:32:37.024-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.075 seconds
+[2026-04-23T11:33:54.894-0400] {processor.py:161} INFO - Started process (PID=23762) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:33:54.894-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:33:54.895-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:54.895-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:33:54.910-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:33:54.953-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:54.953-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:33:54.961-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:54.961-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:33:54.969-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.075 seconds
+[2026-04-23T11:35:08.687-0400] {processor.py:161} INFO - Started process (PID=24299) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:35:08.688-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:35:08.688-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:08.688-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:35:08.701-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:35:08.745-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:08.744-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:35:08.753-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:08.753-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:35:08.763-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.076 seconds
+[2026-04-23T11:36:22.596-0400] {processor.py:161} INFO - Started process (PID=24843) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:36:22.601-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:36:22.601-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:22.601-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:36:22.616-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:36:22.660-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:22.660-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:36:22.667-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:22.667-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:36:22.675-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.080 seconds

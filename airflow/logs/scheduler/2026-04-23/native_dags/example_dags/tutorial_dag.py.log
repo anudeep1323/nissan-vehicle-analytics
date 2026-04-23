@@ -1458,3 +1458,24 @@
 [2026-04-23T11:32:54.859-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:54.859-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:32:54.865-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:54.865-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2026-04-23T11:32:54.878-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2026-04-23T11:34:11.220-0400] {processor.py:161} INFO - Started process (PID=23886) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:34:11.221-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-04-23T11:34:11.221-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:11.221-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:34:11.233-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:34:11.273-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:11.272-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:34:11.277-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:11.277-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-04-23T11:34:11.285-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.066 seconds
+[2026-04-23T11:35:26.275-0400] {processor.py:161} INFO - Started process (PID=24427) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:35:26.276-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-04-23T11:35:26.276-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:26.276-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:35:26.290-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:35:26.337-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:26.337-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:35:26.342-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:26.342-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-04-23T11:35:26.351-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2026-04-23T11:36:39.379-0400] {processor.py:161} INFO - Started process (PID=24990) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:36:39.380-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-04-23T11:36:39.380-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:39.380-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:36:39.397-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-04-23T11:36:39.461-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:39.461-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:36:39.467-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:39.467-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-04-23T11:36:39.477-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.099 seconds

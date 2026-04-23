@@ -744,3 +744,10 @@
 [2026-04-23T11:32:22.910-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:22.910-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:32:22.918-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:22.918-0400] {dag.py:3823} INFO - Setting next_dagrun for example_nested_branch_dag to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
 [2026-04-23T11:32:22.926-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.078 seconds
+[2026-04-23T11:34:55.092-0400] {processor.py:161} INFO - Started process (PID=24200) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2026-04-23T11:34:55.093-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2026-04-23T11:34:55.093-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:55.093-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2026-04-23T11:34:55.112-0400] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2026-04-23T11:34:55.155-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:55.155-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:34:55.163-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:55.163-0400] {dag.py:3823} INFO - Setting next_dagrun for example_nested_branch_dag to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:34:55.170-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.079 seconds

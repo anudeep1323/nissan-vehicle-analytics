@@ -1458,3 +1458,24 @@
 [2026-04-23T11:33:03.822-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:03.822-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:33:03.827-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:03.827-0400] {dag.py:3823} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2026-04-23T11:33:03.835-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2026-04-23T11:34:19.276-0400] {processor.py:161} INFO - Started process (PID=23945) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:34:19.277-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-04-23T11:34:19.277-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:19.277-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:34:19.293-0400] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:34:19.334-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:19.334-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:34:19.338-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:19.338-0400] {dag.py:3823} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-04-23T11:34:19.345-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.070 seconds
+[2026-04-23T11:35:34.093-0400] {processor.py:161} INFO - Started process (PID=24483) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:35:34.095-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-04-23T11:35:34.095-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:34.095-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:35:34.121-0400] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:35:34.171-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:34.171-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:35:34.185-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:34.185-0400] {dag.py:3823} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-04-23T11:35:34.193-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.101 seconds
+[2026-04-23T11:36:48.248-0400] {processor.py:161} INFO - Started process (PID=25058) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:36:48.250-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-04-23T11:36:48.250-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:48.250-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:36:48.273-0400] {processor.py:840} INFO - DAG(s) 'example_trigger_target_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-04-23T11:36:48.323-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:48.323-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:36:48.327-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:48.327-0400] {dag.py:3823} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-04-23T11:36:48.336-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.088 seconds

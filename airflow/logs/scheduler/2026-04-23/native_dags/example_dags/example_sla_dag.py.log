@@ -1409,3 +1409,24 @@
 [2026-04-23T11:33:15.665-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:15.665-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:33:15.675-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:33:15.674-0400] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2026-04-23 15:30:00+00:00, run_after=2026-04-23 15:32:00+00:00
 [2026-04-23T11:33:15.687-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.085 seconds
+[2026-04-23T11:34:30.860-0400] {processor.py:161} INFO - Started process (PID=24034) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:34:30.861-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-23T11:34:30.861-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:30.861-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:34:30.878-0400] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:34:30.919-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:30.918-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:34:30.926-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:34:30.926-0400] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2026-04-23 15:32:00+00:00, run_after=2026-04-23 15:34:00+00:00
+[2026-04-23T11:34:30.933-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2026-04-23T11:35:48.181-0400] {processor.py:161} INFO - Started process (PID=24593) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:35:48.186-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-23T11:35:48.186-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:48.186-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:35:48.206-0400] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:35:48.261-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:48.261-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:35:48.270-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:48.270-0400] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2026-04-23 15:32:00+00:00, run_after=2026-04-23 15:34:00+00:00
+[2026-04-23T11:35:48.277-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.099 seconds
+[2026-04-23T11:37:01.667-0400] {processor.py:161} INFO - Started process (PID=25189) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:37:01.668-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-04-23T11:37:01.668-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:01.668-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:37:01.688-0400] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-04-23T11:37:01.729-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:01.729-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:37:01.737-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:01.737-0400] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2026-04-23 15:34:00+00:00, run_after=2026-04-23 15:36:00+00:00
+[2026-04-23T11:37:01.744-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds

@@ -737,3 +737,10 @@
 [2026-04-23T11:32:33.025-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:33.025-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:32:33.036-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:32:33.036-0400] {dag.py:3823} INFO - Setting next_dagrun for example_branch_operator to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
 [2026-04-23T11:32:33.045-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.174 seconds
+[2026-04-23T11:35:04.174-0400] {processor.py:161} INFO - Started process (PID=24270) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-04-23T11:35:04.175-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2026-04-23T11:35:04.175-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:04.175-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-04-23T11:35:04.192-0400] {processor.py:840} INFO - DAG(s) 'example_branch_operator' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
+[2026-04-23T11:35:04.284-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:04.284-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:35:04.292-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:35:04.292-0400] {dag.py:3823} INFO - Setting next_dagrun for example_branch_operator to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:35:04.300-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.126 seconds
