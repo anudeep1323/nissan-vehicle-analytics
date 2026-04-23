@@ -800,3 +800,17 @@
 [2026-04-23T11:37:07.899-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:07.899-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:37:07.906-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:07.906-0400] {dag.py:3823} INFO - Setting next_dagrun for example_setup_teardown to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
 [2026-04-23T11:37:07.914-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.064 seconds
+[2026-04-23T11:38:28.289-0400] {processor.py:161} INFO - Started process (PID=25940) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:38:28.290-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2026-04-23T11:38:28.291-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:28.290-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:38:28.294-0400] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:38:28.335-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:28.335-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:38:28.341-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:28.341-0400] {dag.py:3823} INFO - Setting next_dagrun for example_setup_teardown to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:38:28.349-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.060 seconds
+[2026-04-23T11:40:57.141-0400] {processor.py:161} INFO - Started process (PID=27037) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:40:57.142-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2026-04-23T11:40:57.142-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:57.142-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:40:57.146-0400] {processor.py:840} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2026-04-23T11:40:57.189-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:57.188-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:40:57.195-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:57.195-0400] {dag.py:3823} INFO - Setting next_dagrun for example_setup_teardown to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:40:57.206-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.065 seconds

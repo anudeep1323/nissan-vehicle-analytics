@@ -1479,3 +1479,31 @@
 [2026-04-23T11:36:22.660-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:22.660-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:36:22.667-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:22.667-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
 [2026-04-23T11:36:22.675-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.080 seconds
+[2026-04-23T11:37:40.863-0400] {processor.py:161} INFO - Started process (PID=25589) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:37:40.864-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:37:40.864-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:40.864-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:37:40.881-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:37:40.928-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:40.928-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:37:40.936-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:40.936-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:37:40.943-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.081 seconds
+[2026-04-23T11:38:55.163-0400] {processor.py:161} INFO - Started process (PID=26136) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:38:55.164-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:38:55.164-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:55.164-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:38:55.184-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:38:55.233-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:55.233-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:38:55.241-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:55.241-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:38:55.249-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.087 seconds
+[2026-04-23T11:40:08.656-0400] {processor.py:161} INFO - Started process (PID=26680) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:40:08.657-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:40:08.657-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:08.657-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:40:08.671-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:40:08.713-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:08.713-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:40:08.721-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:08.721-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:40:08.728-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.073 seconds
+[2026-04-23T11:41:25.116-0400] {processor.py:161} INFO - Started process (PID=27238) to work on /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:41:25.116-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py for tasks to queue
+[2026-04-23T11:41:25.117-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:25.117-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:41:25.130-0400] {processor.py:840} INFO - DAG(s) 'nissan_weekly_retrain' retrieved from /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py
+[2026-04-23T11:41:25.173-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:25.173-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:41:25.182-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:25.182-0400] {dag.py:3823} INFO - Setting next_dagrun for nissan_weekly_retrain to 2026-04-13 02:00:00+00:00, run_after=2026-04-20 02:00:00+00:00
+[2026-04-23T11:41:25.190-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/airflow/dags/retrain_pipeline.py took 0.075 seconds

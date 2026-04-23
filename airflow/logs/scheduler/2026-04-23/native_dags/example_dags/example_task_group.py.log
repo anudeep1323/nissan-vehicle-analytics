@@ -1479,3 +1479,31 @@
 [2026-04-23T11:36:57.884-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:57.884-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:36:57.890-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:36:57.890-0400] {dag.py:3823} INFO - Setting next_dagrun for example_task_group to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
 [2026-04-23T11:36:57.897-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.066 seconds
+[2026-04-23T11:38:14.471-0400] {processor.py:161} INFO - Started process (PID=25827) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:38:14.472-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2026-04-23T11:38:14.472-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:14.472-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:38:14.476-0400] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:38:14.520-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:14.520-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:38:14.527-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:38:14.527-0400] {dag.py:3823} INFO - Setting next_dagrun for example_task_group to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:38:14.534-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2026-04-23T11:39:30.052-0400] {processor.py:161} INFO - Started process (PID=26386) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:39:30.053-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2026-04-23T11:39:30.053-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:30.053-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:39:30.058-0400] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:39:30.114-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:30.114-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:39:30.122-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:30.122-0400] {dag.py:3823} INFO - Setting next_dagrun for example_task_group to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:39:30.132-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2026-04-23T11:40:43.784-0400] {processor.py:161} INFO - Started process (PID=26938) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:40:43.785-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2026-04-23T11:40:43.786-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:43.785-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:40:43.792-0400] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:40:43.840-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:43.840-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:40:43.847-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:40:43.847-0400] {dag.py:3823} INFO - Setting next_dagrun for example_task_group to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:40:43.854-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2026-04-23T11:41:59.076-0400] {processor.py:161} INFO - Started process (PID=27569) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:41:59.078-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2026-04-23T11:41:59.078-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:59.078-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:41:59.084-0400] {processor.py:840} INFO - DAG(s) 'example_task_group' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2026-04-23T11:41:59.129-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:59.129-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:41:59.140-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:41:59.139-0400] {dag.py:3823} INFO - Setting next_dagrun for example_task_group to 2026-04-22 00:00:00+00:00, run_after=2026-04-23 00:00:00+00:00
+[2026-04-23T11:41:59.148-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds

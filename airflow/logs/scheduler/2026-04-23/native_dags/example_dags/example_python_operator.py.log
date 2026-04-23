@@ -758,3 +758,17 @@
 [2026-04-23T11:37:12.656-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:12.656-0400] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-04-23T11:37:12.660-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:37:12.660-0400] {dag.py:3823} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2026-04-23T11:37:12.668-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.133 seconds
+[2026-04-23T11:39:43.750-0400] {processor.py:161} INFO - Started process (PID=26496) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:39:43.751-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-23T11:39:43.751-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:43.751-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:39:43.767-0400] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:39:43.866-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:43.866-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:39:43.870-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:39:43.869-0400] {dag.py:3823} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-23T11:39:43.877-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.128 seconds
+[2026-04-23T11:42:13.638-0400] {processor.py:161} INFO - Started process (PID=27687) to work on /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:42:13.639-0400] {processor.py:830} INFO - Processing file /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-23T11:42:13.640-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:42:13.640-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:42:13.653-0400] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-23T11:42:13.740-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:42:13.740-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-23T11:42:13.744-0400] {logging_mixin.py:188} INFO - [2026-04-23T11:42:13.744-0400] {dag.py:3823} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-23T11:42:13.751-0400] {processor.py:183} INFO - Processing /Users/anudeepgoudrampur/Documents/ML/venv/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.114 seconds
