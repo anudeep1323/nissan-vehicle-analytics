@@ -1,0 +1,28 @@
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/__pycache__/
+
+# Data files
+data/
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+
+# Delta Lake checkpoints
+_checkpoints/
+
+# DuckDB
+*.duckdb
+
+# Environment
+.env
+
+# Spark warehouse
+spark-warehouse/
+derby.log

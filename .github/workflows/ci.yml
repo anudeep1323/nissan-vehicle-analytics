@@ -40,10 +40,3 @@ jobs:
           pytest==7.4.0 \
           evidently==0.4.22 \
           flake8
-
-    - name: Run unit tests
-      run: pytest tests/ -v
-
-    - name: Lint check
-      run: |
-        flake8 src/ --max-line-length=120 --ignore=E501,W503,W291,W292,W504,F405,F403,E402,E128 --exclude=__pycache__

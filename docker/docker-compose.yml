@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8002:8002"
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_USER=nissan
+      - POSTGRES_PASSWORD=nissan123
+      - POSTGRES_DB=nissan_analytics
+    depends_on:
+      - postgres
+    volumes:
+      - ../mlruns:/app/mlruns
+      - ../data:/app/data
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: nissan
+      POSTGRES_PASSWORD: nissan123
+      POSTGRES_DB: nissan_analytics
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
